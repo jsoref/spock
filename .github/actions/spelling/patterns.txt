@@ -1,0 +1,11 @@
+# GitHub SHAs
+(?:\[[0-9a-f]+\]\(https:/|)/github\.com/[^/]+/[^/]+/[^/]+/[0-9a-f]+\b
+\bgithub\.com/[^/]+/[^/]+[@#][0-9a-f]+\b
+
+# URL escaped characters
+\%[0-9A-F]{2}
+# hex digits including css/html color classes:
+(?:[\\0][xX]|\\u|[uU]\+|#|\%23)[0-9a-fA-FgGrR_]{2,}[uU]?[lL]{0,2}\b
+# ignore long runs of a single character:
+\b([A-Za-z])\1{3,}\b
+

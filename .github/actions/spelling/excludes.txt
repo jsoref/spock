@@ -1,0 +1,12 @@
+^\.github/
+^LICENSE$
+ignore$
+\.ASTTransformation$
+\.ConfigurationObject$
+\.IGlobalExtension$
+\.TestEngine$
+\.editorconfig$
+\.gpg$
+\.jar$
+\.png$
+\.svg$
